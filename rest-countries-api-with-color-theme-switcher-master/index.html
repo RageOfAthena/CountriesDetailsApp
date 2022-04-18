@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    
+    <div class="bijoy">
+
+      <header class="head">
+        <h1 class="head_name">Where in the world?</h1>
+        <div class="head_mode">
+          <svg class="head_mode_icon">
+            <use xlink:href="icons\sprite.svg#icon-moon">
+            </svg>    
+            <h1 class="head_mode_title">Dark Mode</h1>
+          </div>
+        </header>
+        <div class="all">
+          
+          <section class="user">
+            <div class="user_input">
+              
+              <input type="text" placeholder="Search for a country" class="user_input_text"/>
+              <svg class="user_input_btn">
+                <use xlink:href="icons\sprite.svg#icon-magnifying-glass">
+                </svg>
+              </div>
+              <select class="user_choice">
+                <option value="">Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+              </select>
+            </section>
+            <main class="countries">
+              <div class="countries_box">1</div>
+              <div class="countries_box">2</div>
+              <div class="countries_box">3</div>
+              <div class="countries_box">4</div>
+              <div class="countries_box">5</div>
+              <div class="countries_box">6</div>
+              <div class="countries_box">7</div>
+              <div class="countries_box">8</div>
+            </main>
+          </div>
+        </div>
+        <div class="spinner">
+            <svg class="spinner_svg">
+                <use xlink:href="icons\sprite.svg#icon-spinner3">
+                </svg>
+        </div>
+  </body>
+</html>
